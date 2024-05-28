@@ -60,15 +60,15 @@
                 <a target="_blank" href="http://www.lilichen.me/">Bangjun Wang</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
                 <a target="_blank" href="https://unnat.github.io/">Unnat Jain</a><sup>1,2</sup>&nbsp;&nbsp;&nbsp;
                 <a target="_blank" href="https://www.cs.cmu.edu/~dpathak/">Deepak Pathak</a><sup>1</sup> -->
-                <a target="_blank">Jia Zeng</a><sup>*</sup><sup>1</sup>&nbsp;&nbsp;&nbsp;
-                <a target="_blank">Qingwen Bu</a><sup>*</sup><sup>2,1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=kYrUfMoAAAAJ&hl=zh-CN">Jia Zeng</a><sup>*</sup><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=-JCRysgAAAAJ&hl=zh-CN&oi=ao">Qingwen Bu</a><sup>*</sup><sup>2,1</sup>&nbsp;&nbsp;&nbsp;
                 <a target="_blank" href="http://wbjsamuel.github.io/">Bangjun Wang</a><sup>*</sup><sup>2,1</sup>&nbsp;&nbsp;&nbsp;
-                <a target="_blank">Wenke Xia</a><sup>*</sup><sup>3,1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=v69hlTUAAAAJ&hl=zh-CN&oi=ao">Wenke Xia</a><sup>*</sup><sup>3,1</sup>&nbsp;&nbsp;&nbsp;
                 <br>
-                <a target="_blank">Li Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-                <a target="_blank">Hao Dong</a><sup>4</sup>&nbsp;&nbsp;&nbsp;
-                <a target="_blank">Haoming Song</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-                <a target="_blank">Dong Wang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN">Li Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                Hao Dong</a><sup>4</sup>&nbsp;&nbsp;&nbsp;
+                Haoming Song</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                Dong Wang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
                 Di Hu<sup>3</sup>&nbsp;&nbsp;&nbsp;
                 Ping Luo<sup>1</sup>&nbsp;&nbsp;&nbsp;
                 <br>
@@ -202,8 +202,41 @@
     </div>
   </section>
 
+  <section class="section body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h1 class="title is-2" style="text-align: center; padding-bottom: 10px;">Model Overview</h1>
+          <!-- <h2 class="subtitle is-4" style="text-align: center;">Defining Visual Affordances</h2> -->
+          <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths ">
+          <div class="content has-text-justified">
+            
+            <tr>
+              <td>
+                <div class="row">
+                  <div class="col">
+                    <img src="resources/mpi/model_overview.png" alt="Image description" width="100%">
+                  </div>
+                </div>
+                <div class="columns is-centered has-text-centered">
+                  <div class="column">
+                  <div class="content has-text-justified interpolation-panel">
+                      <p style="text-align: center;font-size: 18px"> MPI comprises a multi-modal transformer encoder and a transformer decoder designed for predicting the image of the target interaction state and detecting interaction objects respectively. We achieve synergistic modeling and optimization of the two tasks through information transition between the prediction and detection transformers. The decoder is solely engaged during the pre-training phase while deprecated for downstream adaptations.</p>
+                  </div>
+                </div>
+              </div>
+              </td>
+            </tr>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <section class="section">
+  <section class="section body">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-full-width">
@@ -267,12 +300,11 @@
     </div>
   </section>
   
-  <section class="section">
+  <section class="section body">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-full-width">
           <h1 class="title is-2" style="text-align: center; padding-bottom: 10px;">Robustness to Real-World Distractions</h1>
-          <!-- <h2 class="subtitle is-4" style="text-align: center;">Defining Visual Affordances</h2> -->
           <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths ">
           <div class="content has-text-justified">
@@ -338,7 +370,7 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section body">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-full-width">
@@ -363,7 +395,34 @@
     </div>
   </section>
 
-
+  <section class="hero is-light">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h1 class="title is-2" style="text-align: center; padding-bottom: 10px;">More Generalization Evaluation in the Real World</h1>
+          <!-- <h2 class="subtitle is-4" style="text-align: center;">Defining Visual Affordances</h2> -->
+          <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths ">
+          <div class="content has-text-justified">
+            <tr>
+              <td>
+                <div class="row">
+                  <div class="col">
+                    <video class="center" playsinline autoplay loop muted src="./resources/mpi/generalization/rebuttal-supp-compressed.mp4" width="100%" style="border-radius:10px;"></video>
+                    <br>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
 <footer class="footer">
   <div class="container">
